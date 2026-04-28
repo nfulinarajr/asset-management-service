@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+from asset_management_service.ui.cli import launch_asset_service_cli
+
+if __name__ == "__main__":
+    launch_asset_service_cli()
