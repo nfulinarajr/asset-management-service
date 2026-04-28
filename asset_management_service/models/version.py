@@ -15,5 +15,5 @@ class Version:
 
     asset: int
     department: str
-    version: Optional[int] = None
+    version_number: Optional[int] = None
     status: Optional[VersionStatus] = VersionStatus.INACTIVE
