@@ -52,7 +52,7 @@ class VersionIsGreaterThanOneRule:
         if version.version_number is not None and version.version_number < 1:
             validation_errors.append(
                 ValidationError(
-                    field="version",
+                    field="version_number",
                     message="Version must be greater than or equal to 1",
                 )
             )
