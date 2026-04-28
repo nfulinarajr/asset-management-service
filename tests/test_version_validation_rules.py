@@ -58,7 +58,7 @@ def test_version_is_greater_than_one_rule():
     validation_errors = rule.validate(version)
 
     assert len(validation_errors) == 1
-    assert validation_errors[0].field == "version"
+    assert validation_errors[0].field == "version_number"
 
 
 def test_version_status_is_known_rule():
