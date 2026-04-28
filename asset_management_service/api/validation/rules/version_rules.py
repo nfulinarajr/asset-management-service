@@ -1,6 +1,6 @@
 from asset_management_service.api.validation.errors import ValidationError
-from asset_management_service.models.version import Version
 from asset_management_service.models.enums import VersionStatus
+from asset_management_service.models.version import Version
 
 
 class VersionDepartmentIsRequiredRule:

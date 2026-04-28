@@ -1,10 +1,10 @@
+from asset_management_service.api.validation.core import ValidationPipeline
 from asset_management_service.api.validation.rules.asset_rules import (
     AssetNameIsRequiredRule,
     AssetNameIsValidRule,
     AssetTypeIsRequiredRule,
     AssetTypeIsValidRule,
 )
-from asset_management_service.api.validation.core import ValidationPipeline
 from asset_management_service.models.asset import Asset
 
 

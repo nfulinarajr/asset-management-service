@@ -4,8 +4,8 @@ from typing import Optional
 
 from asset_management_service.common import logger
 from asset_management_service.models.asset import Asset
-from asset_management_service.models.version import Version
 from asset_management_service.models.enums import AssetType, VersionStatus
+from asset_management_service.models.version import Version
 
 
 LOGGER = logger.get_logger("SQLiteDatabase")
@@ -297,6 +297,8 @@ class SQLiteDatabase:
         return versions
 
     def close(self) -> None:
-        """Safely close the connection."""
+        """
+        Safely close the connection.
+        """
 
         self._connection.close()
