@@ -2,8 +2,8 @@ import pytest
 import sqlite3
 
 from asset_management_service.models.asset import Asset
-from asset_management_service.models.version import Version
 from asset_management_service.models.enums import AssetType, VersionStatus
+from asset_management_service.models.version import Version
 from asset_management_service.storage.sqlite_database import SQLiteDatabase
 
 
